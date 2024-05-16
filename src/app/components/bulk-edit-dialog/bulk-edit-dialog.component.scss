@@ -1,0 +1,36 @@
+mat-form-field {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+::ng-deep .bulk-edit-dialog {
+  mat-dialog-container {
+    padding: 20px;
+  }
+
+  mat-dialog-content {
+    position: relative;
+
+    .spinner-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(255,255,255,0.8);
+    }
+  }
+
+  .mat-mdc-dialog-actions {
+    margin: 20px;
+  }
+}
+
+.no-data-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
